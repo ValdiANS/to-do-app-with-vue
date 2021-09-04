@@ -6,6 +6,13 @@ class TodoData {
     sessionStorage.setItem(key, this._parseObjectIntoJSON(todoList));
   }
 
+  static storeAllTodo(key, todo) {
+    const todoList = this.getTodo(key) || [];
+    todoList = todo;
+
+    sessionStorage.setItem(key, this._parseObjectIntoJSON(todoList));
+  }
+
   static getTodo(key) {
     this._checkStorage();
 
