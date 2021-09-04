@@ -7,10 +7,7 @@ class TodoData {
   }
 
   static storeAllTodo(key, todo) {
-    const todoList = this.getTodo(key) || [];
-    todoList = todo;
-
-    sessionStorage.setItem(key, this._parseObjectIntoJSON(todoList));
+    sessionStorage.setItem(key, this._parseObjectIntoJSON(todo));
   }
 
   static getTodo(key) {
