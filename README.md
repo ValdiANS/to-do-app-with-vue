@@ -10,4 +10,4 @@ run `npm install`
 - `npm run build-prod`: build the project in production mode.
 
 ## Credits
-Made with [createapp.dev](https://createapp.dev/)
+Project setup made with [createapp.dev](https://createapp.dev/)
