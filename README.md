@@ -1,33 +1,13 @@
-# to-do-apps-vue-starter-pack
+# To Do App
+To do app I created using Vue.js 3. I use Web Storage for store the todo data. I also use Vuex for the state management.
 
-Empty project.
+## How to use
+run `npm install`
 
-## Building and running on localhost
-
-First install dependencies:
-
-```sh
-npm install
-```
-
-To create a production build:
-
-```sh
-npm run build-prod
-```
-
-To create a development build:
-
-```sh
-npm run build-dev
-```
-
-## Running
-
-```sh
-node dist/bundle.js
-```
+## How to Run
+- `npm run dev`: running the project in development mode.
+- `npm run build-dev`: build the project in development mode.
+- `npm run build-prod`: build the project in production mode.
 
 ## Credits
-
 Made with [createapp.dev](https://createapp.dev/)
